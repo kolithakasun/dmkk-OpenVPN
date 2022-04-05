@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  dmkk-vpn:
+    restart: always
+    image: "dmkk-openvpn"
+    ports:
+      - "3000:1194/udp"
+    volumes:
+      - "/vpn-data:/etc/openvpn"
+      - "/tmp:/tmp"
+    cap_add:
+      - "NET_ADMIN"

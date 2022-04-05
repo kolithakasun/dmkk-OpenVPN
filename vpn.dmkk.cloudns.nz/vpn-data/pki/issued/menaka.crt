@@ -1,0 +1,85 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            01:51:5b:1e:e3:12:10:2e:0d:1c:eb:46:e7:08:66:2c
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=vpn.dmkk.cloudns.nz
+        Validity
+            Not Before: Apr  3 05:38:40 2022 GMT
+            Not After : Jul  6 05:38:40 2024 GMT
+        Subject: CN=menaka
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b4:80:49:0e:59:ef:bc:75:a6:0b:06:a2:2d:c6:
+                    49:63:22:82:e4:92:6e:a8:33:c4:8b:5a:51:28:b1:
+                    48:ed:aa:7f:53:95:98:95:4d:7b:85:19:5c:97:3a:
+                    63:53:f3:e9:ad:08:c9:c5:6d:08:18:57:cd:a4:ac:
+                    e7:2c:b8:21:c3:f3:2e:d1:9c:89:c7:2e:3f:54:f1:
+                    f6:76:cf:91:8b:8e:b3:c4:a7:a0:da:28:7a:bf:9f:
+                    ef:cf:4e:98:74:73:f1:14:90:95:43:b3:11:82:67:
+                    dc:5e:cc:79:96:ca:78:e0:79:bf:85:36:90:ea:d3:
+                    8c:a8:8a:47:e6:c7:07:c7:3f:80:0b:51:be:0e:a9:
+                    56:9a:b3:e9:69:3d:f4:ff:89:86:75:db:df:0c:c7:
+                    04:f3:e3:a4:17:6a:71:b8:29:7f:f4:93:14:8d:51:
+                    ce:2f:35:4d:8f:41:20:9a:84:fb:d1:5b:37:2a:54:
+                    38:71:5c:52:ed:9e:9c:5a:63:56:78:fd:f2:40:f9:
+                    83:c5:44:c0:e9:3a:65:a9:56:68:4f:18:6a:b7:d0:
+                    03:a6:a8:6c:60:12:ac:83:c6:b4:9f:8f:6e:e5:45:
+                    3c:19:9f:1c:7e:84:62:d6:05:24:d6:9a:3b:18:23:
+                    74:b4:8e:17:1e:bd:eb:52:2c:8c:b3:eb:6f:d9:84:
+                    22:45
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                84:FC:E1:40:BE:E0:12:80:90:C6:DD:58:96:35:72:E0:FE:3F:ED:E1
+            X509v3 Authority Key Identifier: 
+                keyid:2A:91:77:51:14:27:9F:DA:34:68:A9:93:8E:96:90:21:57:80:71:80
+                DirName:/CN=vpn.dmkk.cloudns.nz
+                serial:6A:58:F4:FF:2A:D4:03:E6:8B:A3:53:9A:51:23:B6:30:AD:4F:6D:35
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         6d:7b:bd:71:8b:6b:7e:98:4c:8e:df:37:9f:33:c3:42:15:1c:
+         59:e5:44:73:72:9a:24:0b:55:f8:06:2a:ee:23:be:ac:96:39:
+         ce:4a:55:e4:ec:e7:28:7f:10:57:19:20:6e:f1:8b:b2:bf:74:
+         13:a3:36:e2:65:1b:c1:3d:6d:e4:c7:56:db:75:76:b7:ce:6a:
+         83:26:4c:5e:19:ad:f2:ef:33:46:9a:c8:39:28:c2:48:36:22:
+         da:ad:79:43:38:89:74:6e:26:7e:d3:45:ab:91:b6:1d:e9:7a:
+         a1:de:61:9b:80:86:09:8d:ed:07:07:33:64:df:4e:2b:df:b6:
+         63:94:d9:29:4d:6d:5d:67:3e:bb:cc:5b:17:59:93:25:6b:47:
+         10:40:f5:81:39:f3:0a:5b:14:62:68:0c:08:45:d4:6f:48:4b:
+         f3:a1:40:40:8e:da:ba:4e:53:8f:d7:a7:9b:fb:ae:06:0d:e7:
+         46:51:da:a4:69:41:30:4a:e9:d4:0c:0d:5f:dc:3c:e0:f9:39:
+         bb:9e:2a:c9:ad:04:2f:bf:fe:13:87:cc:43:a7:2f:12:9c:b1:
+         6b:c4:ce:ef:0f:6a:ed:f8:7f:29:dd:f1:ed:8f:79:66:b3:46:
+         99:f3:4b:1f:c9:9e:6c:a6:20:fd:b2:8b:fe:37:52:c1:eb:2b:
+         4e:6b:cc:93
+-----BEGIN CERTIFICATE-----
+MIIDZDCCAkygAwIBAgIQAVFbHuMSEC4NHOtG5whmLDANBgkqhkiG9w0BAQsFADAe
+MRwwGgYDVQQDDBN2cG4uZG1ray5jbG91ZG5zLm56MB4XDTIyMDQwMzA1Mzg0MFoX
+DTI0MDcwNjA1Mzg0MFowETEPMA0GA1UEAwwGbWVuYWthMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAtIBJDlnvvHWmCwaiLcZJYyKC5JJuqDPEi1pRKLFI
+7ap/U5WYlU17hRlclzpjU/PprQjJxW0IGFfNpKznLLghw/Mu0ZyJxy4/VPH2ds+R
+i46zxKeg2ih6v5/vz06YdHPxFJCVQ7MRgmfcXsx5lsp44Hm/hTaQ6tOMqIpH5scH
+xz+AC1G+DqlWmrPpaT30/4mGddvfDMcE8+OkF2pxuCl/9JMUjVHOLzVNj0EgmoT7
+0Vs3KlQ4cVxS7Z6cWmNWeP3yQPmDxUTA6TplqVZoTxhqt9ADpqhsYBKsg8a0n49u
+5UU8GZ8cfoRi1gUk1po7GCN0tI4XHr3rUiyMs+tv2YQiRQIDAQABo4GqMIGnMAkG
+A1UdEwQCMAAwHQYDVR0OBBYEFIT84UC+4BKAkMbdWJY1cuD+P+3hMFkGA1UdIwRS
+MFCAFCqRd1EUJ5/aNGipk46WkCFXgHGAoSKkIDAeMRwwGgYDVQQDDBN2cG4uZG1r
+ay5jbG91ZG5zLm56ghRqWPT/KtQD5oujU5pRI7YwrU9tNTATBgNVHSUEDDAKBggr
+BgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQELBQADggEBAG17vXGLa36Y
+TI7fN58zw0IVHFnlRHNymiQLVfgGKu4jvqyWOc5KVeTs5yh/EFcZIG7xi7K/dBOj
+NuJlG8E9beTHVtt1drfOaoMmTF4ZrfLvM0aayDkowkg2ItqteUM4iXRuJn7TRauR
+th3peqHeYZuAhgmN7QcHM2TfTivftmOU2SlNbV1nPrvMWxdZkyVrRxBA9YE58wpb
+FGJoDAhF1G9IS/OhQECO2rpOU4/Xp5v7rgYN50ZR2qRpQTBK6dQMDV/cPOD5Obue
+KsmtBC+//hOHzEOnLxKcsWvEzu8Pau34fynd8e2PeWazRpnzSx/JnmymIP2yi/43
+UsHrK05rzJM=
+-----END CERTIFICATE-----
