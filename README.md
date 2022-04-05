@@ -8,7 +8,7 @@
 
 ## Steps to follow - Using Docker Compose
 
-### 2.1 Setup OpenVPN
+### 1. Setup OpenVPN
 
 git clone https://github.com/kylemanna/docker-openvpn.git && cd docker-openvpn
 
@@ -20,9 +20,9 @@ docker run -v /vpn-data:/etc/openvpn --rm dmkk-openvpn ovpn_genconfig -u udp://v
 
 docker run -v /vpn-data:/etc/openvpn --rm -it dmkk-openvpn ovpn_initpki
 
-### 2.2 Start OpenVPN Docker Container using docker-compose
+### 2. Start OpenVPN Docker Container using docker-compose
 
-2.2.1 Create the following docker-compose.yaml file
+2.1 Create the following docker-compose.yaml file
 
 ```
     version: "3.9"
@@ -39,21 +39,36 @@ docker run -v /vpn-data:/etc/openvpn --rm -it dmkk-openvpn ovpn_initpki
           - "NET_ADMIN"
 ```
 
-2.2.2 Start OpenVPN container
+2.2 Start OpenVPN container
 
 ```docker-compose up -d```
 
 
 ## Pre-Configured OpenVPN Settings
 
+Pre-configurations
 ```
 git clone https://github.com/kylemanna/docker-openvpn.git && cd docker-openvpn
 
 docker build -t dmkk-openvpn .
 
-cp -r vpn-data /vpn-data
+git clone https://github.com/kolithakasun/dmkk-OpenVPN.git 
 ```
-
-### Start Service
+Copy Files
+```
+cp -r dmkk-OpenVPN/vpn.dmkk.cloudns.nz/vpn-data /vpn-data
+```
+OR
+```
+cp -r dmkk-OpenVPN/vpn2.dmkk.cloudns.nz/vpn-data /vpn-data
+```
+Start Service
 
 ```docker-compose up -d```
+
+# Create Users
+```
+docker run -v /vpn-data:/etc/openvpn --rm -it dmkk-openvpn easyrsa build-client-full user1 nopass
+
+docker run -v /vpn-data:/etc/openvpn --rm dmkk-openvpn ovpn_getclient user1 > user1.ovpn
+```
