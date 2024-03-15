@@ -72,3 +72,8 @@ docker run -v /vpn-data:/etc/openvpn --rm -it dmkk-openvpn easyrsa build-client-
 
 docker run -v /vpn-data:/etc/openvpn --rm dmkk-openvpn ovpn_getclient user1 > user1.ovpn
 ```
+```
+docker exec -it open-vpn_dmkk-vpn_1  easyrsa build-client-full dmkk nopass
+
+docker exec -it open-vpn_dmkk-vpn_1  ovpn_getclient user1 > /tmp/dmkk.ovpn
+```
